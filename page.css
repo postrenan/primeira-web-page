@@ -1,0 +1,56 @@
+:root{
+    --primary-color: black;
+    --white-color: #FFFFFF; 
+    --gray-color: #696969;
+    --gap: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+body{
+    font-family: font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.white-bg {    
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+
+.ethereum-content{
+    max-width: 120rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+   
+.main-bg {
+    background-image: url('../img/Confetti-Doodles (3).svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color)
+}
+    
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap)
+}
+    
